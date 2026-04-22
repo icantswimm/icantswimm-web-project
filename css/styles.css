@@ -31,7 +31,7 @@ a {
     color: #3182bd
 }
 
-#box {
+.box {
     width: 1300px;
     margin: auto;
     border: 2px solid #fcfdfe;
@@ -39,26 +39,26 @@ a {
     margin-top: 25px;
 }
 
-#grid {
+.grid {
     display: grid;
     width: 100%;
     grid-template-columns: auto auto auto;
     gap: 5px 5px;
 }
 
-#about {
+.about {
     grid-area: 3 / 1 / 4 / 3;
 }
 
-#cover {
+.cover {
     grid-area: 2 / 1 / 3 / 2;
 }
 
-#screenshot {
+.screenshot {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-#screenshot-text {
+.screenshot-text {
     text-align: center;
 }
 
